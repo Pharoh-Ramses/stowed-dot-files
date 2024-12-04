@@ -39,6 +39,10 @@ return {
                 float = {
                     border = 'rounded',
                     source = 'always',
+                    focusable = true,
+                    style = 'minimal',
+                    header = '',
+                    prefix = '',
                 },
             })
 
@@ -53,7 +57,7 @@ return {
                 vim.defer_fn(function()
                     local opts = {
                         focusable = false,
-                        close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
+                        close_events = {"InsertEnter"},
                         border = 'rounded',
                         source = 'always',
                         prefix = ' ',
@@ -65,6 +69,7 @@ return {
             -- Key mappings for diagnostic navigation with popup
             vim.keymap.set("n", "]d", function() navigate_diagnostics_and_show_popup("next") end, {})
             vim.keymap.set("n", "[d", function() navigate_diagnostics_and_show_popup("prev") end, {})
+            vim.keymap.set("n", "<leader>e", show_diagnostics_popup, {})
 
             -- Other LSP-related keybindings
             -- vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
