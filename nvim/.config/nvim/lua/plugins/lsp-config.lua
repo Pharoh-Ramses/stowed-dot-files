@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls","ts_ls", "html" },
+                ensure_installed = { "lua_ls", "ts_ls", "html" },
             })
         end,
     },
@@ -18,7 +18,7 @@ return {
         config = function()
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
             local lspconfig = require("lspconfig")
-
+            
             lspconfig.lua_ls.setup({
                 capabilities = capabilities,
             })
@@ -29,50 +29,53 @@ return {
                 capabilities = capabilities,
             })
 
-            -- Diagnostic configuration
             vim.diagnostic.config({
                 virtual_text = false,
                 signs = true,
                 update_in_insert = false,
                 underline = true,
                 severity_sort = true,
-                float = {
-                    border = 'rounded',
-                    source = 'always',
-                    focusable = true,
-                    style = 'minimal',
-                    header = '',
-                    prefix = '',
-                },
             })
 
-            -- Function to navigate diagnostics and show popup
-            local function navigate_diagnostics_and_show_popup(direction)
+            local function navigate_diagnostics_and_show_window(direction)
                 if direction == "next" then
-                    vim.diagnostic.goto_next({ float = false })
+                    vim.diagnostic.goto_next()
                 else
-                    vim.diagnostic.goto_prev({ float = false })
+                    vim.diagnostic.goto_prev()
                 end
-                -- Defer the float to ensure it appears after navigation
-                vim.defer_fn(function()
-                    local opts = {
-                        focusable = false,
-                        close_events = {"InsertEnter"},
-                        border = 'rounded',
-                        source = 'always',
-                        prefix = ' ',
+                
+                local line = vim.api.nvim_win_get_cursor(0)[1] - 1
+                local diagnostics = vim.diagnostic.get(0, { lnum = line })
+                
+                if #diagnostics > 0 then
+                    local width = math.floor(vim.o.columns * 0.8)
+                    local height = math.floor(vim.o.lines * 0.8)
+                    local bufnr = vim.api.nvim_create_buf(false, true)
+                    local win_opts = {
+                        relative = "editor",
+                        width = width,
+                        height = height,
+                        row = math.floor((vim.o.lines - height) / 2),
+                        col = math.floor((vim.o.columns - width) / 2),
+                        style = "minimal",
+                        border = "rounded"
                     }
-                    vim.diagnostic.open_float(nil, opts)
-                end, 100) -- 100ms delay
+                    
+                    local winnr = vim.api.nvim_open_win(bufnr, true, win_opts)
+                    local lines = {}
+                    for _, d in ipairs(diagnostics) do
+                        local msg = d.message:gsub("\n", " ")
+                        table.insert(lines, string.format("[%s] %s", vim.diagnostic.severity[d.severity], msg))
+                    end
+                    
+                    vim.api.nvim_buf_set_lines(bufnr, 0, -1, false, lines)
+                    vim.api.nvim_buf_set_option(bufnr, 'modifiable', false)
+                    vim.keymap.set('n', 'q', ':q<CR>', { buffer = bufnr })
+                end
             end
 
-            -- Key mappings for diagnostic navigation with popup
-            vim.keymap.set("n", "]d", function() navigate_diagnostics_and_show_popup("next") end, {})
-            vim.keymap.set("n", "[d", function() navigate_diagnostics_and_show_popup("prev") end, {})
-            vim.keymap.set("n", "<leader>e", show_diagnostics_popup, {})
-
-            -- Other LSP-related keybindings
-            -- vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+            vim.keymap.set("n", "]d", function() navigate_diagnostics_and_show_window("next") end, {})
+            vim.keymap.set("n", "[d", function() navigate_diagnostics_and_show_window("prev") end, {})
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
             vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
             vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
