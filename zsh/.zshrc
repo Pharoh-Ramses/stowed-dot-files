@@ -113,3 +113,14 @@ export NVM_DIR="$HOME/.nvm"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH=$PATH:/usr/bin/python3
+export PATH=$PATH:/usr/local/zig
+export FLYCTL_INSTALL="/home/ramses/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/ramses/.lmstudio/bin"
+
+if [ -f "$HOME/.env.local" ]; then
+  source "$HOME/.env.local"
+fi
+export PATH=$PATH:/usr/local/go/bin
