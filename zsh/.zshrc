@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -73,6 +72,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+source ~/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # User configuration
 
@@ -123,4 +123,8 @@ export PATH="$PATH:/home/ramses/.lmstudio/bin"
 if [ -f "$HOME/.env.local" ]; then
   source "$HOME/.env.local"
 fi
-export PATH=$PATH:/usr/local/go/bin
+
+# Go Environment Setup
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+

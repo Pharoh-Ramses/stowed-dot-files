@@ -12,3 +12,10 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 --Navigate between buffers
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
+-- Add this keymap wherever you define your general keymaps
+vim.keymap.set({ "n", "v" }, "<leader>gf", function()
+  -- Use BufFormattingSync for synchronous formatting
+  require("conform").formattingsync()
+  -- Or BufFormattingAsync for asynchronous (less blocking)
+  -- require("conform").formattingasync()
+end, { desc = "Format file" })

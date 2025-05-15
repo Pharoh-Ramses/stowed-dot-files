@@ -1,8 +1,3 @@
-live_config_reload = true
-
-import = [
-"~/.config/alacritty/themes/themes/kanagawa_wave.toml"
-]
 
 [font]
 normal = { family = "DankMono Nerd Font", style = "Regular" }
@@ -10,8 +5,15 @@ size = 16.0
 
 [window]
 dynamic_padding = false
-opacity = 1.0
+opacity = 0.95
 
 [window.padding]
 x = 18
 y = 16
+
+[general]
+live_config_reload = true
+
+import = [
+"~/.config/alacritty/catppuccin-macchiato.toml"
+]
