@@ -127,4 +127,7 @@ fi
 # Go Environment Setup
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
+export EDITOR="nvim"
+
+export TERM=xterm-256color
 

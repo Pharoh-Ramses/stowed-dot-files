@@ -1,0 +1,363 @@
+[2025-06-13 11:08:55.166] [info] Using configuration file /home/ramses/.config/waybar/config.jsonc
+[2025-06-13 11:08:55.167] [info] Discovered appearance 'dark'
+[2025-06-13 11:08:55.167] [info] Using CSS file /home/ramses/.config/waybar/style.css
+
+(waybar:358035): Gtk-WARNING **: 11:08:55.167: Theme parsing error: style.css:21:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:358035): Gtk-WARNING **: 11:08:55.167: Theme parsing error: style.css:22:20: Not using units is deprecated. Assuming 'px'.
+[2025-06-13 11:08:55.170] [info] Hyprland IPC starting
+[2025-06-13 11:08:55.171] [info] Loading persistent workspaces from Waybar config
+[2025-06-13 11:08:55.171] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-06-13 11:08:55.173] [warning] No batteries.
+[2025-06-13 11:08:55.189] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 11:20:53.449] [warning] Requested height: 35 is less than the minimum height: 39 required by the modules
+[2025-06-13 11:20:53.449] [info] Bar configured (width: 2560, height: 39) for output: HDMI-A-1
+[2025-06-13 11:21:00.959] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 11:44:44.047] [warning] Requested height: 35 is less than the minimum height: 39 required by the modules
+[2025-06-13 11:44:44.047] [info] Bar configured (width: 2560, height: 39) for output: HDMI-A-1
+[2025-06-13 11:45:00.723] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:49:40.511] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:49:40.511] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 12:49:41.588] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:50:40.347] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:50:40.347] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 12:50:46.874] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:51:24.858] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:51:24.858] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 12:51:57.442] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:52:18.893] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:52:18.893] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 12:52:19.401] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:54:06.629] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:54:06.629] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 12:54:25.588] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 12:54:27.123] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 12:54:27.123] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:02:15.238] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:02:37.713] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:02:37.713] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:02:39.468] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:03:25.248] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:03:25.248] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:04:47.241] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:05:05.996] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:05:05.996] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:05:18.605] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:05:26.433] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:05:26.433] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:05:50.322] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:08:34.974] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:08:34.974] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:09:10.483] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:09:59.338] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:09:59.338] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:10:31.471] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:10:36.939] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:10:36.940] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:10:48.470] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:12:08.017] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:12:08.017] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:12:12.835] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:12:40.427] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:12:40.427] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:12:44.446] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:12:47.784] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:12:47.784] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:13:59.845] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:19:14.474] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:19:14.474] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:19:24.843] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:20:39.306] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:20:39.306] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:28:33.065] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:28:33.912] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:28:33.912] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:28:36.499] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:29:02.794] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:29:02.794] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:30:45.573] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:30:58.108] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:30:58.108] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:33:35.707] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:33:40.071] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:33:40.071] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:35:11.344] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:35:14.323] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:35:14.323] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:35:15.548] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:35:18.446] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:35:18.446] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:35:20.438] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:35:33.981] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:35:33.981] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:35:55.632] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:36:01.302] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:36:01.302] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:42:54.523] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:42:58.531] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:42:58.531] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:42:59.181] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:43:01.271] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:43:01.271] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:49:21.815] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:49:22.211] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:49:22.211] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:49:22.499] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:49:32.228] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:49:32.228] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:52:15.168] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:52:18.317] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:52:18.317] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:52:22.667] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:52:22.866] [warning] Requested height: 35 is less than the minimum height: 39 required by the modules
+[2025-06-13 13:52:22.866] [info] Bar configured (width: 2560, height: 39) for output: HDMI-A-1
+[2025-06-13 13:52:33.306] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:52:34.552] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:52:34.552] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:52:36.164] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:52:53.835] [warning] Requested height: 35 is less than the minimum height: 39 required by the modules
+[2025-06-13 13:52:53.835] [info] Bar configured (width: 2560, height: 39) for output: HDMI-A-1
+[2025-06-13 13:52:55.130] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:52:56.630] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:52:56.630] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:53:29.871] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:53:30.317] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:53:30.317] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:54:45.581] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:54:47.513] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:54:47.513] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:54:48.520] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:54:50.408] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:54:50.408] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:58:37.590] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:58:39.982] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:58:39.982] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 13:58:53.371] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 13:58:59.816] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 13:58:59.816] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:03:49.151] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:03:50.652] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:03:50.652] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:06:14.534] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:06:16.066] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:06:16.066] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:06:21.438] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:06:26.036] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:06:26.036] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:07:18.604] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:36:02.653] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:36:02.653] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:36:04.716] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:37:58.977] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:37:58.977] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:38:06.990] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:38:49.366] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:38:49.366] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:39:14.908] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:42:30.252] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:42:30.252] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:42:32.880] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:42:34.842] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:42:34.842] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:44:31.795] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:45:48.448] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:45:48.448] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:45:57.560] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:46:20.824] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:46:20.824] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:46:21.137] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:46:24.057] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:46:24.057] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:47:11.809] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 14:52:09.708] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 14:52:09.708] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 14:53:07.284] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:32:05.522] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:32:05.523] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:32:28.188] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:32:39.700] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:32:39.700] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:32:52.705] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:32:54.079] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:32:54.079] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:32:55.322] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:33:28.076] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:33:28.076] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:33:29.222] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:33:44.309] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:33:44.309] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:33:57.833] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:35:10.521] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:35:10.521] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:35:13.194] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:35:19.960] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:35:19.960] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:35:23.213] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:35:28.334] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:35:28.334] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:35:34.490] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:35:40.792] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:35:40.792] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:35:50.062] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:35:59.749] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:35:59.749] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:35:59.943] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:36:03.248] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:36:03.248] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:36:12.939] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:36:29.639] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:36:29.639] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:36:41.434] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:36:48.680] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:36:48.680] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:36:58.268] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:37:04.668] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:37:04.668] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:37:05.039] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:37:09.401] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:37:09.401] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:37:20.722] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:37:21.009] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:37:21.009] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:37:52.247] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:38:07.801] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:38:07.801] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:38:15.339] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:38:24.625] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:38:24.625] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:38:30.425] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:38:34.676] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:38:34.676] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:38:54.112] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:39:30.985] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:39:30.985] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:39:43.921] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:40:12.473] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:40:12.473] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:40:20.134] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:40:30.790] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:40:30.790] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:40:38.268] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:41:02.142] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:41:02.142] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:41:13.448] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:41:16.290] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:41:16.290] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:41:31.891] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:41:41.002] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:41:41.002] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:41:57.337] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:00.618] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:00.618] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:13.134] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:15.806] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:15.806] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:18.187] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:21.602] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:21.602] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:30.326] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:33.476] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:33.476] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:44.401] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:48.491] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:48.491] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:50.380] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:52.113] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:52.113] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:42:55.108] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:42:57.722] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:42:57.722] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:01.562] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:43:03.256] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:43:03.257] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:05.698] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:43:09.474] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:43:09.474] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:17.571] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:43:27.356] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:43:27.356] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:28.175] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:43:38.198] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:43:38.198] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:52.735] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:43:54.561] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:43:54.561] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:43:57.296] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:08.476] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:08.476] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:16.591] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:18.590] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:18.590] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:21.087] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:24.370] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:24.370] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:25.167] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:27.150] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:27.150] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:27.172] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:29.193] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:29.193] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:48.776] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:44:55.102] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:44:55.102] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:44:58.999] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:45:04.950] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:45:04.950] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:45:17.352] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:45:42.678] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:45:42.678] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:46:06.521] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:46:07.015] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:46:07.015] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:46:08.449] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:46:14.614] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:46:14.614] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:46:20.279] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:47:10.653] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:47:10.654] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:47:13.487] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:47:33.734] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:47:33.734] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:47:34.566] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:47:50.562] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:47:50.562] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:48:03.158] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:48:04.342] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:48:04.342] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:48:21.306] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:48:37.682] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:48:37.682] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:48:41.174] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:49:01.858] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:49:01.858] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:49:12.215] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:50:06.074] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:50:06.074] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:50:19.401] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:50:50.254] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:50:50.254] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:51:54.314] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:52:10.228] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:52:10.228] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:52:15.793] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:52:18.554] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:52:18.554] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:52:18.920] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 15:52:19.682] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 15:52:19.682] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 15:52:20.326] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 20:58:33.680] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 20:58:33.680] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 20:58:58.727] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 20:59:12.921] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 20:59:12.921] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 20:59:15.711] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-13 21:01:14.155] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-13 21:01:14.155] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-13 21:01:20.122] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-14 09:41:30.756] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-14 09:41:30.756] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-14 09:41:31.619] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
+[2025-06-14 09:41:32.912] [warning] Requested height: 35 is less than the minimum height: 36 required by the modules
+[2025-06-14 09:41:32.912] [info] Bar configured (width: 2560, height: 36) for output: HDMI-A-1
+[2025-06-14 09:41:34.750] [info] Bar configured (width: 2560, height: 35) for output: HDMI-A-1
