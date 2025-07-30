@@ -2,73 +2,156 @@ return {
   "yetone/avante.nvim",
   event = "VeryLazy",
   version = false, -- Never set this value to "*"! Never!
+  build = "make",
+  keys = {
+    { "<leader>ac", "<cmd>AvanteChat<cr>", desc = "Avante Chat", mode = { "n", "v" } },
+  },
   opts = {
-    -- add any opts here
-    -- for example
     provider = "claude",
-    cursor_applying_behavior = 'groq',
-    behavior = {
-      enable_cursor_planning_mode = true,
+    auto_suggestions_provider = "claude",
+    behaviour = {
+      auto_suggestions = false,
+      auto_set_highlight_group = true,
+      auto_set_keymaps = true,
+      auto_apply_diff_after_generation = false,
+      support_paste_from_clipboard = false,
+      enable_fastapply = true,  -- Enable Fast Apply feature
     },
-    vendors = {
+    rag_service = {
+      enabled = true,
+      host_mount = os.getenv("HOME"),
+      runner = "docker",
+      llm = {
+        provider = "openai",
+        endpoint = "https://api.openai.com/v1",
+        api_key = "OPENAI_API_KEY",
+        model = "gpt-4o-mini",  -- Fast and cost-effective for RAG
+        extra = {
+          temperature = 0.3,  -- Lower for more consistent responses
+          max_tokens = 1024,
+        },
+      },
+      embed = {
+        provider = "openai",
+        endpoint = "https://api.openai.com/v1",
+        api_key = "OPENAI_API_KEY",
+        model = "text-embedding-3-large",  -- Best embedding model
+        extra = {
+          dimensions = nil,  -- Use default dimensions
+        },
+      },
+      docker_extra_args = "",
+    },
+    mappings = {
+      diff = {
+        ours = "co",
+        theirs = "ct",
+        all_theirs = "ca",
+        both = "cb",
+        cursor = "cc",
+        next = "]x",
+        prev = "[x",
+      },
+      suggestion = {
+        accept = "<M-l>",
+        next = "<M-]>",
+        prev = "<M-[>",
+        dismiss = "<C-]>",
+      },
+      jump = {
+        next = "]]",
+        prev = "[[",
+      },
+      submit = {
+        normal = "<CR>",
+        insert = "<C-s>",
+      },
+      sidebar = {
+        apply_all = "A",
+        apply_cursor = "a",
+        switch_windows = "<Tab>",
+        reverse_switch_windows = "<S-Tab>",
+      },
+    },
+    hints = { enabled = true },
+    windows = {
+      position = "right",
+      wrap = true,
+      width = 30,
+      sidebar_header = {
+        enabled = true,
+        align = "center",
+        rounded = true,
+      },
+    },
+    providers = {
+      claude = {
+        endpoint = "https://api.anthropic.com",
+        model = "claude-sonnet-4-20250514",
+        timeout = 30000,
+        extra_request_body = {
+          temperature = 0.75,
+          max_tokens = 8192,
+        },
+      },
+      morph = {
+        endpoint = "https://api.morph.so/v1",
+        model = "morph-v3-large",  -- 98% accuracy, 2500+ tok/sec
+        api_key_name = "MORPH_API_KEY",
+        timeout = 30000,
+      },
+      gemini = {
+        endpoint = "https://generativelanguage.googleapis.com/v1beta/models",
+        model = "gemini-2.5-flash-exp",
+        api_key_name = "GEMINI_API_KEY",
+        timeout = 30000,
+        extra_request_body = {
+          temperature = 0.75,
+          maxOutputTokens = 8192,
+        },
+      },
+      openai = {
+        endpoint = "https://api.openai.com/v1",
+        model = "gpt-4o",
+        timeout = 30000,
+        extra_request_body = {
+          temperature = 0,
+          max_completion_tokens = 8192,
+        },
+      },
       groq = {
         __inherited_from = "openai",
         api_key_name = "GROQ_API_KEY",
         endpoint = "https://api.groq.app/openai/v1/",
         model = "llama-3.3-70b-versatile",
-        max_completion_tokens = 32768,
+        extra_request_body = {
+          max_completion_tokens = 32768,
+        },
       },
     },
-    openai = {
-      endpoint = "https://api.openai.com/v1",
-      model = "gpt-4o",
-      timeout = 30000,
-      temperature = 0,
-      max_completion_tokens = 8192,
-    },
-    claude = {
-      endpoint = "https://api.anthropic.com",
-      model = "claude-3-7-sonnet-20250219",
-      temperature = 0,
-      max_tokens = 4096,
-    },
-
-
   },
-  -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
-  build = "make",
-  -- build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false" -- for windows
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
-    "stevearc/dressing.nvim",
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
-    --- The below dependencies are optional,
-    "echasnovski/mini.pick",         -- for file_selector provider mini.pick
-    "nvim-telescope/telescope.nvim", -- for file_selector provider telescope
-    "hrsh7th/nvim-cmp",              -- autocompletion for avante commands and mentions
-    "ibhagwan/fzf-lua",              -- for file_selector provider fzf
-    "nvim-tree/nvim-web-devicons",   -- or echasnovski/mini.icons
-    "zbirenbaum/copilot.lua",        -- for providers='copilot'
+    "nvim-telescope/telescope.nvim",
+    "hrsh7th/nvim-cmp",
+    "nvim-tree/nvim-web-devicons",
     {
-      -- support for image pasting
       "HakonHarnes/img-clip.nvim",
       event = "VeryLazy",
       opts = {
-        -- recommended settings
         default = {
           embed_image_as_base64 = false,
           prompt_for_file_name = false,
           drag_and_drop = {
             insert_mode = true,
           },
-          -- required for Windows users
           use_absolute_path = true,
         },
       },
     },
     {
-      -- Make sure to set this up properly if you have lazy=true
       'MeanderingProgrammer/render-markdown.nvim',
       opts = {
         file_types = { "markdown", "Avante" },

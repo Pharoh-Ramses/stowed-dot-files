@@ -72,7 +72,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source ~/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # User configuration
 
@@ -131,3 +130,7 @@ export EDITOR="nvim"
 
 export TERM=xterm-256color
 
+source ~/.env.local
+if [ -f ~/.env.local ]; then
+  export $(cat ~/.env.local | xargs)
+fi
